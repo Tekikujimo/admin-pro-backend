@@ -18,10 +18,14 @@ app.use(express.json());
 //Base de datos
 dbConnection();
 
+// Directorio público
+app.use( express.static('public') )
+
 //console.log(process.env)
 
 //diegomongodb
 //9S82BXCxi83n0wkr
+
 
 
 // Rutas
